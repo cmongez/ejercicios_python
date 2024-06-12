@@ -12,7 +12,7 @@ while True:
     
     # Preguntar si desea agregar otro nombre
     while True:
-        respuesta = input("¿Desea agregar otro nombre? (si/no): ").strip().lower()
+        respuesta = input("¿Desea agregar otro nombre? (si/no): ").lower()
         
         if respuesta == "no":
             break

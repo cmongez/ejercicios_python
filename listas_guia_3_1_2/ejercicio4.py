@@ -69,6 +69,7 @@ while True:
     elif opcion == 3:
         print("ELIMINAR USUARIO")
         nombreUsuario = input("Ingrese el nombre de usuario a eliminar: ")
+        
         usuarioEncontrado = False
 
         # Buscar el usuario en la lista
